@@ -4,11 +4,6 @@
     margin: 20px 50px;
 }
 
-p {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 img {
   width: 300px;      
   height: auto;       
@@ -20,6 +15,16 @@ img {
   justify-content: center;
 }
 
+.intro {
+  margin-left: 50px;
+}
+
+.research_intro {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
 .right-image-box {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     float: right;
@@ -29,6 +34,18 @@ img {
     padding: 15px;
     margin: 0 50px 20px 20px;
     text-align: left;
+}
+
+.quote {
+  margin-top: 10px;
+  color: #000000;
+}
+
+.quote p {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0;
 }
 
 #heading {
