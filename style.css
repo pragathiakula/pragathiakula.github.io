@@ -20,7 +20,7 @@ img {
 }
 
 .research_intro {
-  max-width: 900px;
+  width: auto;
   padding: 0 50px;
   font-size: 18px;
 }
@@ -96,6 +96,13 @@ img {
   background-color: #244a7a;
 }
 
+.research-figure {
+  float: right;
+  width: auto;
+  margin: -70px 100px 0 50px;
+  transform: rotate(90deg);
+}
+
 .quote_2 {
   text-align: center;
   font-weight: bold;
@@ -104,6 +111,7 @@ img {
   font-style: italic;
   max-width: 1000px;
   margin: 10px auto;
+  clear: both;
 }
 
 hr {
