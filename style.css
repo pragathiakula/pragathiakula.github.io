@@ -37,6 +37,17 @@ img {
     text-align: left;
 }
 
+.left-image-box {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: left;
+  width: 300px;
+  order: 2px solid rgb(147, 191, 235);
+  background-color: rgb(147, 191, 235);
+  padding: 15px;
+  margin: 0 50px;
+  text-align: left;
+}
+
 .quote {
   margin-top: 10px;
   color: #000000;
