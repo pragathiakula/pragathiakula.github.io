@@ -10,8 +10,7 @@ img {
 }
 
 .custom-iframe {
-  margin-left: 50px;
-  margin-right: 40px;
+  margin: 20px 50px;
   justify-content: center;
 }
 
