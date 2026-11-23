@@ -71,19 +71,20 @@ img {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(34, 108, 181);
     margin: 20px 50px;
+
 }
 
 .navbar {
     background-color: rgb(34, 108, 181);
     text-align: left;
-    padding: 10px 50px 10px 0;
+    padding: 10px 50px;
     margin: 20px 50px;
 }
 
 .navbar a {
   color: #ffffff;
   text-decoration: none;
-  margin: 10px 15px;
+  margin: 0;
   font-weight: bold;
   font-size: 16px;
 }
@@ -96,7 +97,9 @@ img {
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 1px;
+    justify-content: center;   
+    align-items: center;       
+    gap: 100px;                 
     margin: 0;
     padding: 0;
 }
